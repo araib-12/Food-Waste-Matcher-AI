@@ -1,0 +1,9 @@
+project_id = "mealping"
+
+[functions.extract-donation]
+verify_jwt = true
+
+# Called only by a scheduled job using the CRON_SECRET header. This keeps
+# pickup-deadline housekeeping working when no browser has Food Waste Matcher AI open.
+[functions.expire-donations]
+verify_jwt = false

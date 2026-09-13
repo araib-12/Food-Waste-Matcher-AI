@@ -1,0 +1,17 @@
+{
+  "name": "Food Waste Matcher AI — Food Rescue Network",
+  "short_name": "Food Waste Matcher AI",
+  "description": "Ping surplus. Rescue meals.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#123c2f",
+  "icons": [
+    {
+      "src": "food-waste-matcher-mark.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
