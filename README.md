@@ -21,15 +21,7 @@ Open `http://localhost:4200`. Useful demo routes:
 - `/ngo/rescues/MP-24071` — pickup OTP and delivery flow
 - `/admin/dashboard` — live network operations
 
-Every workspace route is login-protected. Use the role-specific login tabs with:
-
-| Workspace | Email | Password |
-| --- | --- | --- |
-| Food Partner | `partner@mealping.demo` | `mealping123` |
-| NGO | `ngo@mealping.demo` | `mealping123` |
-| Admin | `admin@mealping.demo` | `mealping123` |
-
-Each account can open only its own workspace. The registration form also creates a reusable local account in demo mode. When Supabase is configured and `demoMode` is disabled, login and registration use Supabase Auth instead.
+Every workspace route is login-protected. 
 
 ## Hackathon judge accounts
 
