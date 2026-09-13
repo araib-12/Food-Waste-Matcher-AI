@@ -175,7 +175,7 @@ Deno.serve(async (request: Request) => {
 
 function configuredOrigins(): Set<string> {
   const configured = Deno.env.get('ALLOWED_ORIGINS') ?? 'http://localhost:4200,http://127.0.0.1:4200';
-  return new Set(configured.split(',').map((value) => value.trim()).filter(Boolean));
+  return new Set(configured.split(/[,\s]+/).map((value) => value.trim()).filter(Boolean));
 }
 
 function originAllowed(origin: string | null): boolean {
