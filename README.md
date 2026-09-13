@@ -2,9 +2,8 @@
 
 **Ping surplus. Rescue meals.**
 
-Food Waste Matcher AI is an AI-assisted food-rescue network for Food Partners, NGOs and network operators. A restaurant can photograph or type a surplus-food description; AI structures it; a person confirms it; AI can prepare a human-reviewable pickup handoff brief; deterministic rules rank eligible nearby NGOs; and both organizations track pickup and delivery.
+Food Waste Matcher AI is an AI-assisted food-rescue network for Food Partners, NGOs and network operators. A restaurant can type a surplus-food description; AI structures it; a person confirms it; AI can prepare a human-reviewable pickup handoff brief; deterministic rules rank eligible nearby NGOs; and both organizations track pickup and delivery.
 
-This repository is an Angular 21 + PrimeNG 21 hackathon MVP. It starts in demo mode with synthetic Mumbai–Thane data and no paid services.
 
 ## Run locally
 
