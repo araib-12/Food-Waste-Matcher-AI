@@ -85,4 +85,4 @@ AI only extracts fields and identifies missing details. It never declares food s
 2. Rank eligible NGOs by configurable distance, timing, reliability and fairness weights.
 3. Alert in ranked waves and record every outcome.
 
-Before a real pilot, complete legal review, food-safety policy, organization verification, consent and incident-response procedures.
+
